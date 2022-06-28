@@ -313,6 +313,12 @@ img {
   gap: 4px;
   margin-bottom: 10px;
 }
+/* .modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
 .form-input {
   padding-left: 42px;
   padding-bottom: 12px;
@@ -370,6 +376,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 7px;
+  margin-bottom: 20px;
 }
 .icon-check {
   display: inline-flex;
