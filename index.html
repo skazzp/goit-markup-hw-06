@@ -82,14 +82,7 @@
                 <div class="form-box">
                   <label class="form-name" for="name">Имя</label>
                   <span class="form-input-box">
-                    <input
-                      class="form-input"
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder=" "
-                      autofocus
-                    />
+                    <input class="form-input" type="text" name="name" id="name" placeholder=" " />
                     <svg class="form-icon" width="18px" height="18px">
                       <use href="./images/icons.svg#icon-person-b"></use>
                     </svg>
@@ -98,13 +91,7 @@
                 <div class="form-box">
                   <label class="form-name" for="phone">Телефон</label>
                   <span class="form-input-box">
-                    <input
-                      class="form-input"
-                      type="phone"
-                      name="phone"
-                      id="phone"
-                      placeholder=" "
-                    />
+                    <input class="form-input" type="tel" name="phone" id="phone" placeholder=" " />
                     <svg class="form-icon" width="18px" height="18px">
                       <use href="./images/icons.svg#icon-phone-b"></use>
                     </svg>
@@ -130,17 +117,23 @@
                   ></textarea>
                 </div>
                 <div class="form-box">
-                  <label class="form-name" for="agreement"></label>
-                  <p class="form-agreement">
+                  <label class="label-check" for="agreement">
                     <input
-                      class=""
+                      class="form-checkbox visually-hidden"
                       type="checkbox"
                       name="agreement"
                       id="agreement"
                       placeholder=" "
                     />
-                    Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
-                  </p>
+                    <span class="icon-check">
+                      <svg width="16px" height="15px">
+                        <use href="./images/icons.svg#icon-icon-check"></use>
+                      </svg>
+                    </span>
+                    <p class="form-agreement">
+                      Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+                    </p>
+                  </label>
                 </div>
                 <div class="center">
                   <button class="hero-button" type="submit">Отправить</button>
